@@ -1,0 +1,35 @@
+body{
+    background-color: #7E8F7C;
+}
+.clock
+{
+    width: 200px;
+    height: 200px;
+    margin: 5% auto;
+}
+.clock-face
+{
+    border: 10px solid white;
+    border-radius: 50%;
+    width: inherit;
+    height: inherit;
+    position: relative;
+}
+.hand
+{
+    background-color: black;
+    width: 50%;
+    height: 2%;
+    position: absolute;
+    top: 50%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.5s;
+}
+h1
+{
+    width: 280px;
+    margin: auto;
+    color: #1F3A93;
+    margin-top: 15%;
+}
